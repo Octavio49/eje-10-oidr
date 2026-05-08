@@ -19,4 +19,12 @@ export class Calculadora {
   restar(){
     this.resultado = this.n1 - this.n2
   }
+
+  multiplicar(){
+    this.resultado = this.n1 * this.n2
+  }
+
+  dividir(){
+    this.resultado = this.n1/this.n2
+  }
 }
